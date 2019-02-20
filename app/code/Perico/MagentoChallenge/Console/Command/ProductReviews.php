@@ -104,7 +104,7 @@ class ProductReviews extends Command
                 break;
             case Review::STATUS_NOT_APPROVED:
                 $status =  'Not approved';
-                break;
+                // no break
         }
         return $status;
     }
