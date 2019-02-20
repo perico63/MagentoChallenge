@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  Perico
+ * @package   MagentoChallenge
+ * @version   1.0.0
+ * @authors   Diego Perico <perico.oliveiran@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Perico_MagentoChallenge" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Review"/>
+        </sequence>
+    </module>
+</config>
